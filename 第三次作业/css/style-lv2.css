@@ -1,0 +1,45 @@
+section {
+    position: relative;
+    width: 300px;
+    height: 419px;
+    margin: 200px auto;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+    background: url(/第三次作业/images/胡桃back.jpg) no-repeat;
+}
+
+section .user_headimg img {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    border-radius: 40px;
+    margin-left: -40px;
+    width: 80px;
+    height: 80px;
+}
+
+section:hover {
+    transform: scale(1.08);
+}
+
+.user_name input {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 15px;
+}
+
+
+button {
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 300px;
+    left: 37%;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    transform: scale(0.8);
+}
